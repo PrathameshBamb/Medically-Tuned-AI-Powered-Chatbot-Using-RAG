@@ -2,7 +2,7 @@
 
 Welcome to the AI-Powered Medical Chatbot repository! This project offers an intelligent assistant capable of answering medically relevant questions by combining the power of semantic search with a cutting-edge Large Language Model (LLM). It is designed to aid users in accessing concise and reliable medical information derived from trusted literature.
 
-## 🧠 Overview
+## Overview
 
 This chatbot is built on a Retrieval-Augmented Generation (RAG) architecture, which retrieves relevant context from a vectorized document database and uses an instruction-tuned language model to generate accurate, context-aware responses. It features:
 - Vectorization of medical PDFs using sentence-transformer embeddings.
@@ -10,7 +10,7 @@ This chatbot is built on a Retrieval-Augmented Generation (RAG) architecture, wh
 - Streamlit-based web interface and CLI terminal interface.
 - Strict domain filtering to allow only medical queries.
 
-## 🚀 Features
+## Features
 
 - **RAG Architecture**: Combines semantic retrieval with generative response capabilities for reliable medical Q&A.
 - **Medical Document Parsing**: Loads and splits medical PDFs into manageable chunks for indexing.
@@ -19,7 +19,7 @@ This chatbot is built on a Retrieval-Augmented Generation (RAG) architecture, wh
 - **Interactive UI**: Streamlit-based chatbot interface with chat memory and source document expansion.
 - **Command-Line Interface**: For terminal-based usage, allowing testing and debugging of LLM responses.
 
-## 🧪 Technologies Used
+## Technologies Used
 
 - **LangChain** – Framework for RAG and LLM integration.
 - **FAISS** – Vector similarity search for document retrieval.
@@ -33,5 +33,5 @@ This chatbot is built on a Retrieval-Augmented Generation (RAG) architecture, wh
 ### Clone the Repository
 
 ```bash
-git clone
+git clone https://github.com/PrathameshBamb/Medically-Tuned-AI-Powered-Chatbot-Using-RAG.git
 
